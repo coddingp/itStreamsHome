@@ -3,10 +3,20 @@ package com.company;
 public class Student {
     private String name;
     private int id;
+    private int mark;
 
-    public Student(String name, int id) {
+    public Student(String name, int id, int mark) {
         this.name = name;
         this.id = id;
+        this.mark = mark;
+    }
+
+    public int getMark() {
+        return mark;
+    }
+
+    public void setMark(int mark) {
+        this.mark = mark;
     }
 
     public String getName() {
@@ -30,6 +40,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
+                ", mark=" + mark +
                 '}';
     }
 }
