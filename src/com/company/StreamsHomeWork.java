@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Main {
+public class StreamsHomeWork {
 
     public static void main(String[] args) {
         //just to try
